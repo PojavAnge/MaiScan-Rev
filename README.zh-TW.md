@@ -2,7 +2,7 @@
   <img src="assets/icon.png" width="128" alt="MaiScan">
 </p>
 
-<h1 align="center">MaiScan</h1>
+<h1 align="center">MaiScan Rev</h1>
 
 <p align="center">
   <sub>本地離線曲庫 · 封面識曲 · 收藏整理</sub>
