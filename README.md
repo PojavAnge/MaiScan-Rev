@@ -9,9 +9,10 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Android-6.0%2B-3DDC84?style=flat-square" alt="Android 6.0+">
-  <img src="https://img.shields.io/badge/Offline-100%25-374151?style=flat-square" alt="Offline">
-  <img src="https://img.shields.io/badge/Network-None-374151?style=flat-square" alt="No network access">
+  <img src="https://img.shields.io/badge/Platform-Android%206.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Platform: Android 6.0+">
+  <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Language: Kotlin">
+  <img src="https://img.shields.io/badge/Framework-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Framework: Jetpack Compose">
+  <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square" alt="Purpose: maimai DX Tool">
 </p>
 
 <p align="center">
@@ -28,11 +29,11 @@
 
 | 功能 | 说明 |
 | :-- | :-- |
-| **封面识曲** | 在**歌曲选择阶段**拍摄曲绘识别歌曲，查看部分乐曲数据；支持**曲绘保存**、**文本内容复制**，以及快速搜寻更多信息。 |
-| **歌曲搜索** | 支持以**曲名 / 曲师 / 别名 / 定数 / ID** 搜索歌曲；借助**特殊别名**，还可搜索**版本号**、**删除曲**、**宴会场**、主题曲等。 |
-| **收藏系统** | 将喜欢的乐曲进行收藏，收藏夹支持**层级叠加**；可导入导出 **`.msrf`** 文件，并设置**只读**与**暴力恢复**；也鼓励玩家制作**收藏整合包**进行分享。 |
-| **曲库方面** | 收录几乎所有 maimai 的歌曲，包括但不限于**精文舞萌独占曲**、**删除曲**、**旧框体宴会场**等，合计**超过 1900 首**，通过公开数据手动整理。 |
-| **外观设置** | 既有为低性能设备准备的原生 MaiScan 界面（**Legacy**），也有基于 **Material** 与 **Miuix** 的新 UI，支持**自定义主题**界面。 |
+| **封面识曲** | 在**歌曲选择阶段**拍摄曲绘识别歌曲，查看部分乐曲数据<br>支持**曲绘保存**、**文本内容复制**，以及快速搜寻更多信息 |
+| **歌曲搜索** | 支持以**曲名 / 曲师 / 别名 / 定数 / ID** 搜索歌曲<br>借助**特殊别名**，还可搜索**版本号**、**删除曲**、**宴会场**、主题曲等 |
+| **收藏系统** | 将喜欢的乐曲进行收藏，收藏夹支持**层级叠加**<br>可导入导出 **`.msrf`** 文件，设置**只读**与**暴力恢复**<br>也鼓励玩家制作**收藏整合包**进行分享 |
+| **曲库方面** | 收录几乎所有 maimai 的歌曲<br>包括**精文舞萌独占曲**、**删除曲**、**旧框体宴会场**等<br>合计**超过 1900 首**，通过公开数据手动整理 |
+| **外观设置** | 既有为低性能设备准备的原生 MaiScan 界面（**Legacy**）<br>也有基于 **Material** 与 **Miuix** 的新 UI，支持**自定义主题**界面 |
 
 ## 下载
 
