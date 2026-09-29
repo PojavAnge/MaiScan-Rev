@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="128" alt="MaiScan">
+  <img src="assets/icon.png" width="128" alt="MaiScan Rev">
 </p>
 
 <h1 align="center">MaiScan Rev</h1>
@@ -26,7 +26,7 @@
 
 ## これは何か
 
-MaiScan をベースに二次制作した **maimai DX のローカル・オフライン楽曲データツール**です。
+**MaiScan Rev** は MaiScan をベースに二次制作した **maimai DX のローカル・オフライン楽曲データツール**です。
 現在は以下に対応しています：
 
 | 機能 | 説明 |

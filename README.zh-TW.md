@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="128" alt="MaiScan">
+  <img src="assets/icon.png" width="128" alt="MaiScan Rev">
 </p>
 
 <h1 align="center">MaiScan Rev</h1>
@@ -25,7 +25,7 @@
 
 ## 這是什麼
 
-基於 MaiScan 二次製作的 **maimai DX 本地離線曲庫工具**，已支援以下功能：
+**MaiScan Rev** 是基於 MaiScan 二次製作的 **maimai DX（舞萌 DX）本地離線曲庫工具**，已支援以下功能：
 
 | 功能 | 說明 |
 | :-- | :-- |

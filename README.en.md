@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="128" alt="MaiScan">
+  <img src="assets/icon.png" width="128" alt="MaiScan Rev">
 </p>
 
 <h1 align="center">MaiScan Rev</h1>
@@ -26,8 +26,8 @@
 
 ## What this is
 
-A **local, offline song database tool for maimai DX**, produced as a second-round build on top of
-MaiScan. It currently supports:
+**MaiScan Rev** is a **local, offline song database tool for maimai DX**, produced as a second-round
+build on top of MaiScan. It currently supports:
 
 | Feature | Description |
 | :-- | :-- |
