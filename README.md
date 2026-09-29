@@ -38,8 +38,9 @@
 
 | 来源 | 说明 |
 | :-- | :-- |
-| GitHub Releases | 主渠道，安装包在本页 |
-| 蓝奏云 | 国内直连 · 链接见每条 Release 说明 |
-| Google Drive | 国际镜像 · 链接见每条 Release 说明 |
 
-> Android 6.0 及以上。Android 8.0 以下、或 32 位构建会自动使用 Legacy 界面。
+| Github | 本仓库Release |
+| 蓝奏云 | 国内分流 · 链接：待补 |
+| Google Drive | 国际分流 · 链接：待补 |
+
+> Android 6.0 及以上。Android 8.0 以下、或 32 位将无法使用新UI界面。
