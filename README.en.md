@@ -68,7 +68,6 @@ The search box understands a few "type-it-in" forms — **no buttons involved**:
 | Source | Notes |
 | :-- | :-- |
 | Github | [Releases in this repository](../../releases/latest) |
-| Lanzou Cloud | Mainland China mirror · link: TBD |
-| Google Drive | International mirror · link: TBD |
+| Lanzou Cloud | [ilk.lanzoue.com/s/MaiScan](https://ilk.lanzoue.com/s/MaiScan) · Mainland China mirror |
 
 > Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.

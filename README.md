@@ -66,7 +66,6 @@
 | 渠道 | 说明 |
 | :-- | :-- |
 | Github | [本仓库 Release](../../releases/latest) |
-| 蓝奏云 | 国内分流 · 链接：待补 |
-| Google Drive | 国际分流 · 链接：待补 |
+| 蓝奏云 | [ilk.lanzoue.com/s/MaiScan](https://ilk.lanzoue.com/s/MaiScan) · 国内分流 |
 
 > Android 6.0 及以上。Android 8.0 以下、或 32 位将无法使用新 UI 界面。

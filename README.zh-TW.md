@@ -66,7 +66,6 @@
 | 管道 | 說明 |
 | :-- | :-- |
 | Github | [本倉庫 Release](../../releases/latest) |
-| 藍奏雲 | 國內分流 · 連結：待補 |
-| Google Drive | 國際分流 · 連結：待補 |
+| 藍奏雲 | [ilk.lanzoue.com/s/MaiScan](https://ilk.lanzoue.com/s/MaiScan) · 國內分流 |
 
 > Android 6.0 以上。Android 8.0 以下、或 32 位將無法使用新 UI 介面。

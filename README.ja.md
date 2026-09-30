@@ -68,7 +68,6 @@
 | 入手先 | 説明 |
 | :-- | :-- |
 | Github | [このリポジトリの Release](../../releases/latest) |
-| Lanzou Cloud（藍奏雲） | 中国本土向けミラー · URL：未定 |
-| Google Drive | 海外向けミラー · URL：未定 |
+| Lanzou Cloud（藍奏雲） | [ilk.lanzoue.com/s/MaiScan](https://ilk.lanzoue.com/s/MaiScan) · 中国本土向けミラー |
 
 > Android 6.0 以上。Android 8.0 未満、または 32bit では新しい UI を使用できません。
