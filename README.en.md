@@ -46,3 +46,35 @@ build on top of MaiScan. It currently supports:
 | Google Drive | International mirror · link: TBD |
 
 > Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.
+
+## Search syntax
+
+The search box understands a few "type-it-in" forms — **no buttons involved**:
+
+| Input | What it does | Example |
+| :-- | :-- | :-- |
+| `keyword` | Fuzzy match (the default) | `舞萌` |
+| `"keyword"` | **Exact match** (alias category only) | `"universe"` won't bring up `universe+` |
+| `13.5` | Chart constant **equals** | `13.5` |
+| `13.4-14.5` | Chart constant **range** (any difficulty inside it) | `13.4-14.5` |
+| `query&[param]` | **Sort** the results; stacks with everything above | `你好&[ds4+]` |
+
+**Sort parameters** (inside `&[…]` — right after the query, after a space, or even in front):
+
+| Param | Meaning |
+| :-- | :-- |
+| `ds+` / `ds-` | by the song's **highest** chart constant, ascending / descending |
+| `ds1+` … `ds5+` | by a specific slot: 1=Basic　2=Advanced　3=Expert　4=Master　5=Re:Master |
+| `az+` / `az-` | by the **romaji** of the first character, a→z (pinyin for Chinese, romaji for kana) |
+| `id+` / `id-` | by song ID, ascending / descending (`id-` puts the newest first) |
+
+- The `+` is optional: no sign means ascending
+- Besides the ASCII `-`, full-width separators such as `～` `－` `−` also work
+- Combinations: `"universe"&[ds-]`　`13.4-14.5&[az]`　`你好 &[ds2+]`
+
+## Feedback
+
+- **QQ group**: [join here](https://qm.qq.com/q/LnWS4cxjQy) — bug reports, suggestions and new aliases are all welcome
+- **GitHub Issues**: [Issues](../../issues) of this repository
+
+The song database and aliases are compiled by hand by players — if something is missing, just drop by the group and tell us.
