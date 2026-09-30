@@ -37,16 +37,6 @@ build on top of MaiScan. It currently supports:
 | **Song database** | Nearly every maimai track, **compiled by hand from public data**<br>Includes **精文舞萌独占曲**, **removed songs** and **old-cabinet Utage charts**<br>**Over 1900** in total |
 | **Appearance** | The original MaiScan interface (**Legacy**) for low-end devices<br>Plus new **Material** and **Miuix** UIs with **custom theming** |
 
-## Download
-
-| Source | Notes |
-| :-- | :-- |
-| Github | [Releases in this repository](../../releases/latest) |
-| Lanzou Cloud | Mainland China mirror · link: TBD |
-| Google Drive | International mirror · link: TBD |
-
-> Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.
-
 ## Search syntax
 
 The search box understands a few "type-it-in" forms — **no buttons involved**:
@@ -72,9 +62,18 @@ The search box understands a few "type-it-in" forms — **no buttons involved**:
 - Besides the ASCII `-`, full-width separators such as `～` `－` `−` also work
 - Combinations: `"universe"&[ds-]`　`13.4-14.5&[az]`　`你好 &[ds2+]`
 
+## Download
+
+| Source | Notes |
+| :-- | :-- |
+| Github | [Releases in this repository](../../releases/latest) |
+| Lanzou Cloud | Mainland China mirror · link: TBD |
+| Google Drive | International mirror · link: TBD |
+
+> Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.
+
 ## Feedback
 
 - **QQ group**: [join here](https://qm.qq.com/q/LnWS4cxjQy) — bug reports, suggestions and new aliases are all welcome
-- **GitHub Issues**: [Issues](../../issues) of this repository
 
 The song database and aliases are compiled by hand by players — if something is missing, just drop by the group and tell us.
