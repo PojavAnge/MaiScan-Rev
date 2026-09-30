@@ -36,6 +36,7 @@ build on top of MaiScan. It currently supports:
 | **Collections** | Collect favourite songs in a folder tree that **nests as deep as you like**<br>Import and export **`.msrf`** files, with **read-only** and **force-restore** options<br>Players are encouraged to build and share **collection packs** |
 | **Song database** | Nearly every maimai track, **compiled by hand from public data**<br>Includes **精文舞萌独占曲**, **removed songs** and **old-cabinet Utage charts**<br>**Over 1900** in total |
 | **Appearance** | The original MaiScan interface (**Legacy**) for low-end devices<br>Plus new **Material** and **Miuix** UIs with **custom theming** |
+| **UI languages** | **简体中文 / 繁體中文 / English / 日本語**<br>Switch any time from the About page |
 
 ## Search syntax
 
@@ -71,9 +72,3 @@ The search box understands a few "type-it-in" forms — **no buttons involved**:
 | Google Drive | International mirror · link: TBD |
 
 > Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.
-
-## Feedback
-
-- **QQ group**: [join here](https://qm.qq.com/q/LnWS4cxjQy) — bug reports, suggestions and new aliases are all welcome
-
-The song database and aliases are compiled by hand by players — if something is missing, just drop by the group and tell us.
