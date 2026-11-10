@@ -5,7 +5,7 @@
 <h1 align="center">MaiScan Rev</h1>
 
 <p align="center">
-  <sub>Local offline song database · Cover recognition · Collection manager</sub>
+  <sub>Offline song database · Cover recognition · Collection manager</sub>
 </p>
 
 <p align="center">
@@ -24,44 +24,28 @@
 > This app is a modified build of **MaiScan** — the original repository is
 > **[Klta-kyo/MaiScan](https://github.com/Klta-kyo/MaiScan)**.
 
-## What this is
+## About
 
-**MaiScan Rev** is a **local, offline song database tool for maimai DX**, produced as a second-round
-build on top of MaiScan. It currently supports:
+**MaiScan Rev** is a **100% offline** local lookup tool for maimai DX:
+take a photo of the jacket art on the song-select screen to look up a song, or search by text.
+
+## Features
 
 | Feature | Description |
 | :-- | :-- |
-| **Cover recognition** | Photograph the jacket art on the **song-select screen** to identify a track<br>Save the jacket, copy its text, and jump straight to more information |
-| **Song search** | Search by **title / artist / alias / chart constant / ID**<br>**Special aliases** also cover versions, removed songs, Utage charts and theme songs |
-| **Collections** | Collect favourite songs in a folder tree that **nests as deep as you like**<br>Import and export **`.msrf`** files, with **read-only** and **force-restore** options<br>Players are encouraged to build and share **collection packs** |
-| **Song database** | Nearly every maimai track, **compiled by hand from public data**<br>Includes **精文舞萌独占曲**, **removed songs** and **old-cabinet Utage charts**<br>**Over 1900** in total |
-| **Appearance** | The original MaiScan interface (**Legacy**) for low-end devices<br>Plus new **Material** and **Miuix** UIs with **custom theming** |
-| **UI languages** | **简体中文 / 繁體中文 / English / 日本語**<br>Switch any time from the About page |
+| **Cover recognition** | Camera recognition powered by OpenCV; you can also pick an image directly<br>Matching uses **SIFT** feature points, so it stays fast and usable |
+| **Song search** | Search by **title / artist / alias / chart constant / ID**<br>Aliases also cover versions, removed songs and Utage charts |
+| **Collections** | File-tree style folders; nest collections just like creating new folders<br>Export **`.msrf`** collection packs to share with friends |
+| **Song details** | Chart constants and difficulties, jacket, aliases and more<br>Copy text, save the jacket, and other basic offline features |
+| **Plugins** | Custom plugins are supported, including jumps that carry the current song's data<br>Make and use plugins to extend what the app can do |
+| **Song database** | The regular maimai catalogue, **1900+** songs, including old-cabinet Utage data, compiled by hand from public data<br>No online API is required, so it updates whenever the data does |
+| **Appearance** | First launch uses the **Legacy** UI; switch to the newer **Material / Miuix** UI on the About page<br>Legacy is the conservative, original-MaiScan look and doesn't support advanced debugging or plugins |
+| **UI languages** | Switch the interface language on the About page: **简体中文 / 繁體中文 / English / 日本語** |
 
-## Search syntax
+## Community
 
-The search box understands a few "type-it-in" forms — **no buttons involved**:
-
-| Input | What it does | Example |
-| :-- | :-- | :-- |
-| `keyword` | Fuzzy match (the default) | `舞萌` |
-| `"keyword"` | **Exact match** (alias category only) | `"universe"` won't bring up `universe+` |
-| `13.5` | Chart constant **equals** | `13.5` |
-| `13.4-14.5` | Chart constant **range** (any difficulty inside it) | `13.4-14.5` |
-| `query&[param]` | **Sort** the results; stacks with everything above | `你好&[ds4+]` |
-
-**Sort parameters** (inside `&[…]` — right after the query, after a space, or even in front):
-
-| Param | Meaning |
-| :-- | :-- |
-| `ds+` / `ds-` | by the song's **highest** chart constant, ascending / descending |
-| `ds1+` … `ds5+` | by a specific slot: 1=Basic　2=Advanced　3=Expert　4=Master　5=Re:Master |
-| `az+` / `az-` | by the **romaji** of the first character, a→z (pinyin for Chinese, romaji for kana) |
-| `id+` / `id-` | by song ID, ascending / descending (`id-` puts the newest first) |
-
-- The `+` is optional: no sign means ascending
-- Besides the ASCII `-`, full-width separators such as `～` `－` `−` also work
-- Combinations: `"universe"&[ds-]`　`13.4-14.5&[az]`　`你好 &[ds2+]`
+- Bug reports are welcome in the QQ group or in this repository's issues; we'll reply when we see them.
+- The group is also a place to share plugins and report problems. QQ group: **781038216**
 
 ## Download
 
@@ -71,3 +55,11 @@ The search box understands a few "type-it-in" forms — **no buttons involved**:
 | Lanzou Cloud | [ilk.lanzoue.com/s/MaiScan](https://ilk.lanzoue.com/s/MaiScan) · Mainland China mirror |
 
 > Android 6.0 or newer. On Android 8.0 or older, or on 32-bit builds, the new UI is unavailable.
+
+## Notes
+
+- This project is an authorised second-round development by **Klta-卡**. This page is for distribution only; the source code is not open for now
+- Due to the architecture and codebase, an iOS version is neither planned nor will be made
+- For personal lookup and organisation only; please don't use it commercially
+- This is a community project. Game names, songs, charts and jacket art belong to SEGA and their respective authors / rights holders
+- Song and alias data was compiled by hand from public sources. If you want to reuse that data, please ask first and respect the authors' work
