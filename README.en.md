@@ -67,4 +67,4 @@ take a photo of the jacket art on the song-select screen to look up a song, or s
 - Due to the architecture and codebase, an iOS version is neither planned nor will be made
 - For personal lookup and organisation only; please don't use it commercially
 - This is a community project. Game names, songs, charts and jacket art belong to SEGA and their respective authors / rights holders
-- Song and alias data was compiled by hand from public sources. If you want to reuse that data, please ask first and respect the authors' work
+- Song and alias data comes from public sources. If you reuse or share the app's data, please credit the source
