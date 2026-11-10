@@ -43,8 +43,8 @@ take a photo of the jacket art on the song-select screen to look up a song, or s
 | **Collections** | File-tree style folders; nest collections just like creating new folders<br>Export **`.msrf`** collection packs to share with friends |
 | **Song details** | Chart constants and difficulties, jacket, aliases and more<br>Copy text, save the jacket, and other basic offline features |
 | **Plugins** | Custom plugins are supported, including jumps that carry the current song's data<br>Make and use plugins to extend what the app can do |
-| **Song database** | The regular maimai catalogue, **1900+** songs, including old-cabinet Utage data, compiled by hand from public data<br>No online API is required, so it updates whenever the data does |
-| **Appearance** | First launch uses the **Legacy** UI<br>Switch to the newer **Material / Miuix** UI on the About page<br>Legacy keeps the conservative, original-MaiScan look<br>It does not support advanced debugging or plugins |
+| **Song database** | The regular maimai catalogue, **1900+** songs, including old-cabinet Utage data<br>Compiled by hand from public data; no online API is required, so it updates whenever the data does |
+| **Appearance** | First launch uses the **Legacy** UI<br>Switch to the newer **Material / Miuix** UI on the About page<br>Legacy keeps the conservative, original-MaiScan look and does not support advanced debugging or plugins |
 | **UI languages** | Switch the interface language on the About page: **简体中文 / 繁體中文 / English / 日本語** |
 
 ## Community
