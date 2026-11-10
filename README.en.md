@@ -13,6 +13,9 @@
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Language: Kotlin">
   <img src="https://img.shields.io/badge/Framework-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Framework: Jetpack Compose">
   <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square" alt="Purpose: maimai DX Tool">
+  <img src="https://img.shields.io/github/v/release/PojavAnge/MaiScan-Rev?style=flat-square&label=Release&color=3DDC84" alt="Latest release">
+  <img src="https://img.shields.io/github/stars/PojavAnge/MaiScan-Rev?style=flat-square&label=Stars&color=E4007F" alt="Stars">
+  <img src="https://img.shields.io/github/downloads/PojavAnge/MaiScan-Rev/total?style=flat-square&label=Downloads&color=2bb8c8" alt="Downloads">
 </p>
 
 <p align="center">
@@ -39,7 +42,7 @@ take a photo of the jacket art on the song-select screen to look up a song, or s
 | **Song details** | Chart constants and difficulties, jacket, aliases and more<br>Copy text, save the jacket, and other basic offline features |
 | **Plugins** | Custom plugins are supported, including jumps that carry the current song's data<br>Make and use plugins to extend what the app can do |
 | **Song database** | The regular maimai catalogue, **1900+** songs, including old-cabinet Utage data, compiled by hand from public data<br>No online API is required, so it updates whenever the data does |
-| **Appearance** | First launch uses the **Legacy** UI; switch to the newer **Material / Miuix** UI on the About page<br>Legacy is the conservative, original-MaiScan look and doesn't support advanced debugging or plugins |
+| **Appearance** | First launch uses the **Legacy** UI<br>Switch to the newer **Material / Miuix** UI on the About page<br>Legacy keeps the conservative, original-MaiScan look<br>It does not support advanced debugging or plugins |
 | **UI languages** | Switch the interface language on the About page: **简体中文 / 繁體中文 / English / 日本語** |
 
 ## Community

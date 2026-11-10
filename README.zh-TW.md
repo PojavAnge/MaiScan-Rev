@@ -13,6 +13,9 @@
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Language: Kotlin">
   <img src="https://img.shields.io/badge/Framework-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Framework: Jetpack Compose">
   <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square" alt="Purpose: maimai DX Tool">
+  <img src="https://img.shields.io/github/v/release/PojavAnge/MaiScan-Rev?style=flat-square&label=%E6%9C%80%E6%96%B0%E7%89%88%E6%9C%AC&color=3DDC84" alt="Latest release">
+  <img src="https://img.shields.io/github/stars/PojavAnge/MaiScan-Rev?style=flat-square&label=Star&color=E4007F" alt="Stars">
+  <img src="https://img.shields.io/github/downloads/PojavAnge/MaiScan-Rev/total?style=flat-square&label=%E4%B8%8B%E8%BC%89&color=2bb8c8" alt="Downloads">
 </p>
 
 <p align="center">
@@ -38,7 +41,7 @@
 | **曲目資訊** | 定數與譜面、曲繪、別名等資訊<br>可以複製文字內容、儲存曲繪等基本離線功能 |
 | **擴充套件** | 支援自訂外掛，支援攜帶目前曲目資料跳轉<br>製作與使用外掛，可用來擴充 App 的可玩性 |
 | **曲庫資料** | 收錄常規 maimai 曲目，**1900+**，含有 maimai 舊框體的宴會場資料，由公開資料手動整理<br>不依賴連網 API，所以有資料便會更新 |
-| **介面外觀** | 首次啟動預設為 **Legacy** 介面，在關於頁可切換 **Material / Miuix** 的新版頁面<br>Legacy 偏保守、保留 MaiScan 原版懷舊風格，不支援進階除錯與外掛等功能 |
+| **介面外觀** | 首次啟動預設為 **Legacy** 介面<br>在關於頁可切換 **Material / Miuix** 的新版頁面<br>Legacy 偏保守、保留 MaiScan 原版懷舊風格<br>Legacy不支援進階除錯與外掛等功能 |
 | **介面語言** | 可在「關於」頁切換介面語言，支援 **简体中文 / 繁體中文 / English / 日本語** |
 
 ## 交流

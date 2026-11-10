@@ -13,6 +13,9 @@
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Language: Kotlin">
   <img src="https://img.shields.io/badge/Framework-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Framework: Jetpack Compose">
   <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square" alt="Purpose: maimai DX Tool">
+  <img src="https://img.shields.io/github/v/release/PojavAnge/MaiScan-Rev?style=flat-square&label=%E6%9C%80%E6%96%B0%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9&color=3DDC84" alt="Latest release">
+  <img src="https://img.shields.io/github/stars/PojavAnge/MaiScan-Rev?style=flat-square&label=%E3%82%B9%E3%82%BF%E3%83%BC&color=E4007F" alt="Stars">
+  <img src="https://img.shields.io/github/downloads/PojavAnge/MaiScan-Rev/total?style=flat-square&label=%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89&color=2bb8c8" alt="Downloads">
 </p>
 
 <p align="center">
@@ -39,7 +42,7 @@
 | **楽曲情報** | 定数・難易度・ジャケット・別名など<br>テキストのコピー、ジャケットの保存といった基本的なオフライン機能に対応 |
 | **プラグイン** | 独自プラグインに対応。現在の楽曲データを持ったままジャンプできます<br>プラグインの制作・利用でアプリの幅が広がります |
 | **楽曲データ** | 通常の maimai 楽曲を **1900 曲以上**収録。旧筐体の宴会场データも含み、公開データから手作業で整理<br>オンライン API に依存しないため、データがあれば更新されます |
-| **外観** | 初回起動時は **Legacy** 画面。アプリについてのページから新しい **Material / Miuix** 画面に切り替えられます<br>Legacy は MaiScan オリジナルに近い保守的な画面で、高度なデバッグやプラグインには対応していません |
+| **外観** | 初回起動時は **Legacy** 画面<br>アプリについてのページから新しい **Material / Miuix** 画面に切り替えられます<br>Legacy は MaiScan オリジナルに近い保守的な画面です<br>高度なデバッグやプラグインには対応していません |
 | **UI 言語** | 「アプリについて」から切り替え可能：**简体中文 / 繁體中文 / English / 日本語** |
 
 ## コミュニティ
