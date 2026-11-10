@@ -11,14 +11,13 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Language-Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Language: Kotlin">
   <img src="https://img.shields.io/badge/Framework-Jetpack%20Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Framework: Jetpack Compose">
-  <img src="https://img.shields.io/github/stars/PojavAnge/MaiScan-Rev?style=flat-square&logo=github&label=Star&color=E4007F" alt="Stars">
-  <img src="https://img.shields.io/github/downloads/PojavAnge/MaiScan-Rev/total?style=flat-square&logo=github&label=Downloads&color=2bb8c8" alt="Downloads">
+  <img src="https://img.shields.io/github/stars/PojavAnge/MaiScan-Rev?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMjMzLTEyMCA2NS0yODFMODAtNTkwbDI4OC0yNSAxMTItMjY1IDExMiAyNjUgMjg4IDI1LTIxOCAxODkgNjUgMjgxLTI0Ny0xNDktMjQ3IDE0OVoiLz48L3N2Zz4%3D&label=Star&color=E4007F" alt="Stars">
+  <img src="https://img.shields.io/github/downloads/PojavAnge/MaiScan-Rev/total?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNNDgwLTMyMCAyODAtNTIwbDU2LTU4IDEwNCAxMDR2LTMyNmg4MHYzMjZsMTA0LTEwNCA1NiA1OC0yMDAgMjAwWk0yNDAtMTYwcS0zMyAwLTU2LjUtMjMuNVQxNjAtMjQwdi0xMjBoODB2MTIwaDQ4MHYtMTIwaDgwdjEyMHEwIDMzLTIzLjUgNTYuNVQ3MjAtMTYwSDI0MFoiLz48L3N2Zz4%3D&label=Downloads&color=2bb8c8" alt="Downloads">
 </p>
-
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Android%206.0%2B-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Platform: Android 6.0+">
-  <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square" alt="Purpose: maimai DX Tool">
-  <img src="https://img.shields.io/github/v/release/PojavAnge/MaiScan-Rev?style=flat-square&logo=github&label=Release&color=3DDC84" alt="Latest release">
+  <img src="https://img.shields.io/badge/Purpose-maimai%20DX%20Tool-E4007F?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNNzM5LTgzLjVxLTctMi41LTEzLTguNUw1MjItMjk2cS02LTYtOC41LTEzdC0yLjUtMTVxMC04IDIuNS0xNXQ4LjUtMTNsODUtODVxNi02IDEzLTguNXQxNS0yLjVxOCAwIDE1IDIuNXQxMyA4LjVsMjA0IDIwNHE2IDYgOC41IDEzdDIuNSAxNXEwIDgtMi41IDE1dC04LjUgMTNsLTg1IDg1cS02IDYtMTMgOC41VDc1NC04MXEtOCAwLTE1LTIuNVptMTUtOTIuNSAyOS0yOS0xNDctMTQ3LTI5IDI5IDE0NyAxNDdaTTE4OS41LTgzcS03LjUtMy0xMy41LTlsLTg0LTg0cS02LTYtOS0xMy41VDgwLTIwNXEwLTggMy0xNXQ5LTEzbDIxMi0yMTJoODVsMzQtMzQtMTY1LTE2NWgtNTdMODAtNzY1bDExMy0xMTMgMTIxIDEyMXY1N2wxNjUgMTY1IDExNi0xMTYtNDMtNDMgNTYtNTZINDk1bC0yOC0yOCAxNDItMTQyIDI4IDI4djExM2w1Ni01NiAxNDIgMTQycTE3IDE3IDI2IDM4LjV0OSA0NS41cTAgMjQtOSA0NnQtMjYgMzlsLTg1LTg1LTU2IDU2LTQyLTQyLTIwNyAyMDd2ODRMMjMzLTkycS02IDYtMTMgOXQtMTUgM3EtOCAwLTE1LjUtM1ptMTUuNS05MyAxNzAtMTcwdi0yOWgtMjlMMTc2LTIwNWwyOSAyOVptMCAwLTI5LTI5IDE1IDE0IDE0IDE1Wm01NDkgMCAyOS0yOS0yOSAyOVoiLz48L3N2Zz4%3D" alt="Purpose: maimai DX Tool">
+  <img src="https://img.shields.io/github/v/release/PojavAnge/MaiScan-Rev?style=flat-square&logo=data:image/svg%2Bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgLTk2MCA5NjAgOTYwIiBmaWxsPSIjZmZmIj48cGF0aCBkPSJNMzIwLTI0MGgzMjB2LTgwSDMyMHY4MFptMC0xNjBoMzIwdi04MEgzMjB2ODBaTTI0MC04MHEtMzMgMC01Ni41LTIzLjVUMTYwLTE2MHYtNjQwcTAtMzMgMjMuNS01Ni41VDI0MC04ODBoMzIwbDI0MCAyNDB2NDgwcTAgMzMtMjMuNSA1Ni41VDcyMC04MEgyNDBabTI4MC01MjB2LTIwMEgyNDB2NjQwaDQ4MHYtNDQwSDUyMFpNMjQwLTgwMHYyMDAtMjAwIDY0MC02NDBaIi8%2BPC9zdmc%2B&label=Release&color=3DDC84" alt="Latest release">
 </p>
 
 <p align="center">
