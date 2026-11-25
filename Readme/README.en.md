@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Assets/icon.png" width="128" alt="MaiScan Rev">
+  <img src="../Assets/icon.png" width="128" alt="MaiScan Rev">
 </p>
 
 <h1 align="center">MaiScan Rev</h1>
@@ -39,10 +39,10 @@ take a photo of the jacket art on the song-select screen to look up a song, or s
 | Feature | Description |
 | :-- | :-- |
 | **Cover recognition** | Camera recognition powered by OpenCV; you can also pick an image directly<br>Matching uses **SIFT** feature points, so it stays fast and usable<br>On capable devices you can switch to CPU recognition for better speed and accuracy |
-| **Song search** | Search by **title / artist / alias / chart constant / ID**<br>Aliases also cover versions, removed songs and Utage charts<br>Advanced players can read the [advanced text search guide](SearchDoc/AdvSearch_en.md) |
+| **Song search** | Search by **title / artist / alias / chart constant / ID**<br>Aliases also cover versions, removed songs and Utage charts<br>Advanced players can read the [advanced text search guide](../SearchDoc/AdvSearch_en.md) |
 | **Collections** | File-tree style folders; nest collections just like creating new folders<br>Export **`.msrf`** collection packs to share with friends |
 | **Song details** | Chart constants and difficulties, jacket, aliases and more<br>Copy text, save the jacket, and other basic offline features |
-| **Plugins** | Custom plugins are supported, including automated actions that carry the current song's data<br>Make and use plugins to extend what the app can do<br>Deep link documentation: [DeepLink specification](Scheme/DeepLink_en.md) |
+| **Plugins** | Custom plugins are supported, including automated actions that carry the current song's data<br>Make and use plugins to extend what the app can do<br>Deep link documentation: [DeepLink specification](../Scheme/DeepLink_en.md) |
 | **Song database** | The regular maimai catalogue, **1900+** songs, including old-cabinet Utage data<br>Compiled by hand from public data; no online API is required, so it updates whenever the data does |
 | **Appearance** | First launch uses the **Legacy** UI<br>Switch to the newer **Material / Miuix** UI on the About page<br>Legacy keeps the conservative, original-MaiScan look and does not support advanced debugging or plugins |
 | **UI languages** | Switch the interface language on the About page: **简体中文 / 繁體中文 / English / 日本語** |
