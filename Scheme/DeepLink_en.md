@@ -4,7 +4,7 @@
 
 # MaiScan Rev Deep Link (`maiscan://`) Specification
 
-**Version**: 1.0　**Applies to**: MaiScan Rev `build.20261126` and later　**Platform**: Android 6.0+ (`run` / `play` require the new UI, see Section 11)
+**Applies to**: MaiScan Rev `build.20261126` and later　**Platform**: Android 6.0+ (`run` / `play` require the new UI, see Section 11)
 
 This document is for developers and advanced users who want to trigger MaiScan Rev from other apps, NFC tags, QR codes, or automation tools.
 
@@ -24,7 +24,6 @@ This document is for developers and advanced users who want to trigger MaiScan R
 10. [Full Examples](#10-full-examples)
 11. [Compatibility and Limitations](#11-compatibility-and-limitations)
 12. [FAQ](#12-faq)
-13. [Changelog](#13-changelog)
 
 ---
 
@@ -270,11 +269,3 @@ Most target apps only read imports on a cold start. With the target in the backg
 **Q: Can links with `debug=1` be published to ordinary users?**
 
 Yes, but they will show step-by-step prompts. Omit the parameter for public releases.
-
----
-
-## 13. Changelog
-
-| Version | Date | Changes |
-|---|---|---|
-| 1.0 | 2026-11-26 | First release: parameters and actions, random pick, `sweep`, failure behavior, NFC usage, and FAQ |
