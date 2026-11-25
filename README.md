@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/icon.png" width="128" alt="MaiScan Rev">
+  <img src="Assets/icon.png" width="128" alt="MaiScan Rev">
 </p>
 
 <h1 align="center">MaiScan Rev</h1>
