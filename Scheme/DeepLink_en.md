@@ -134,19 +134,19 @@ maiscan://info/songID=random{action=play}
 
 ## 7. Running Target `sweep`
 
-Some target apps (for example AstroDX) only read imports on a cold start; while running, a new launch request is ignored. `sweep` works around this.
+Target apps (for example AstroDX) only read imports on a cold start; while running, a new launch request is ignored. `sweep` is used to attempt an import when the target is already running.
 
-| Value | Approach | Result | Side effect |
-|---|---|---|---|
-| omitted | Normal launch (opens in the target app's own task) | Safe, no crash | No import while the target app is running |
-| `sweep=1` | Pulls the target activity into the MaiScan task to obtain a fresh instance | Import works | Unity targets may show "has stopped" once; after dismissing, it no longer appears (observed) |
-| `sweep=2` | Lets the target app create a new task in its own stack | Import works, usually without a crash | Every trigger adds one recent-task entry for that app; apps cannot remove other apps' tasks |
+| Value | Approach | Measured result (AstroDX only) |
+|---|---|---|
+| omitted (=0) | Normal launch | Target in background: **cannot inject**; restarting the target and retrying fails the same way. Target in foreground: launching **crashes immediately**, with no relaunch afterwards, and an error dialog (Unity) may appear directly |
+| `sweep=1` | Same as 0, but **relaunches the target after the crash** | The crash dialog still appears, but usually flashes by; if it is not dismissed/cancelled, the import continues |
+| `sweep=2` | Lets the target create a new task in its own stack | Usually does not crash; the cost is one extra recent-task entry per trigger |
 
-When `sweep` is used, the flow is always a silent import; `execution` no longer affects whether it is silent.
+⚠️ This has been **tested on AstroDX only**; other apps may behave differently. Other Unity apps that support external imports are expected to behave similarly.
 
-Both modes try to bring the target app back to the foreground about 1.8 seconds after the import; on failure only a log is written, and with `debug=1` a Toast is shown.
+With `sweep`, the flow is always a silent import; `execution` no longer affects silence.
 
-**Recommendation**: prefer `sweep=1` (it does not pile up recent tasks); use `sweep=2` only when the first-crash prompt must be avoided and an extra task entry is acceptable.
+Both modes try to bring the target back to the foreground about 1.8 seconds after the import; failures are logged only, and shown as a Toast when `debug=1`.
 
 ---
 
@@ -194,7 +194,7 @@ Silent import (easiest when the target app is not running):
 maiscan://info/songID=10721{plugin="com.exp.pack",action=run,execution=1}
 ```
 
-The target app is running and must read the import:
+The target app is running (`sweep=1` relaunches it after the crash):
 
 ```
 maiscan://info/songID=10721{plugin="com.exp.pack",action=run,execution=1,sweep=1}
@@ -232,7 +232,7 @@ maiscan://info/songID=10721%7Bplugin=%22com.exp.pack%22,action=run,execution=1%7
 - **Legacy devices**: on Android below 8.0 or on 32-bit devices only the Legacy UI is available, with **no plugin support** — links that carry `plugin` will not run and will land on the song detail page as "plugin not installed / not enabled". `maiscan://` and plain `songID` links are unaffected.
 - **Offline**: everything is processed locally; no network requests are made.
 - **Plugin requirement**: `run` needs a target package name declared by the plugin (`targetPackage` in `metadata.ini`); without it the system falls back to an app chooser and silence is impossible.
-- **Target app behavior**: if the target app does not handle a running launch request, only `sweep` (fresh instance) can trigger it, with the costs listed in Section 7. The cleaner solution is for the target app to re-read the link content when it receives a new launch request.
+- **Target app behavior**: if the target app does not handle a running launch request, only `sweep` can attempt it; Unity targets crash once during the import (see Section 7). The cleaner solution is for the target app to re-read the link content when it receives a new launch request.
 - **Language**: link syntax is independent of the system language; UI strings follow the app language setting.
 
 ---
@@ -265,7 +265,7 @@ The plugin did not declare a target package. Silent `run` depends on the plugin 
 
 **Q: Why does the target app in the link not respond?**
 
-Most target apps only read imports on a cold start. When the target is already running, use `sweep=1`; see Section 7.
+Most target apps only read imports on a cold start. With the target in the background, `sweep` cannot inject either; with it in the foreground, Unity targets crash once, and `sweep=1` relaunches and continues the import. See Section 7.
 
 **Q: Can links with `debug=1` be published to ordinary users?**
 
